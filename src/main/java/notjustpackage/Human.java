@@ -1,5 +1,7 @@
 package notjustpackage;
 
+
+
 public class Human implements Mammal {
 
     public Human(int oxygen) {
@@ -15,7 +17,8 @@ public class Human implements Mammal {
     }
 
     public int oxygen = 0;
-    public void Breathe(){
+    public int Breathe(){
         oxygen++;
+        return oxygen;
     }
 }
